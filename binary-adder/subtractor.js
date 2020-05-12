@@ -28,15 +28,17 @@ const functions = {
             z = tempArr[1];
 
         }
-        if (z == 1) {
-            revAnswer.push(1);
-        }
+       
 
        
    
         let arrAnswer = revAnswer.reverse();
+        // add lopp to get rid of leading 0's
+        while (arrAnswer[0] == 0) {
+            arrAnswer.shift();
+        }
         let strAnswer = arrAnswer.join('');
-        
+
 
         return strAnswer;
     },
