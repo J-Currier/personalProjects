@@ -8,7 +8,7 @@ const functions = {
         let maxArrLength = Math.max(arr1.length, arr2.length);
         let z = 0;
         let revAnswer=[];
-        console.log(revArray1.length, maxArrLength);
+        // console.log(revArray1.length, maxArrLength);
         
         while (revArray1.length < maxArrLength) {
             

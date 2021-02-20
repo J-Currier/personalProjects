@@ -1,4 +1,4 @@
-const functions = {
+const adderFunctions = {
     binaryOutside: (arr1, arr2) => {
         let arr1Array = arr1.split('');
         let arr2Array = arr2.split('');
@@ -20,7 +20,7 @@ const functions = {
             
 
             let y = parseInt(revArray2[i]);
-            let tempArr = functions.binaryLogic(x,y,z);
+            let tempArr = adderFunctions.binaryLogic(x,y,z);
             revAnswer.push(tempArr[0]);
             z = tempArr[1];
 
@@ -74,6 +74,6 @@ const functions = {
 
 };
 
-export default functions;
+export default adderFunctions;
 
 
